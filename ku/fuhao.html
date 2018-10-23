@@ -1,0 +1,2497 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+ <style>
+/*---------- 
+import  @import url("layout.css");   
+@import url("page.css");   
+---------*/
+
+
+
+/***
+ *	DedeCMS v5.3 Style (grass green)
+ *	dedecms.com  Author pigz  2008-11-10 10:57
+ **/
+
+/*--------------------------------------------------
+ box base
+ ---------------------------------------------*/
+
+.tbox{/* 鑷€傚簲瀹藉害鐨勫潡(閫氱敤鍧�) */
+	width:100%;
+	border-bottom:1px solid #C5DDBC;
+	overflow:hidden;
+}
+.tbox dt{
+	height:25px;
+	background:#C5DDBC url(../images/mbox-tbg.png) right top no-repeat;
+	overflow:hidden;
+	clear:both;
+}
+.tbox dt strong{
+	height:25px;
+	line-height:25px;
+	padding-left:10px;
+	padding-right:4px;
+	display:block;
+	float:left;
+	color:#4A7749;
+	background:#C5DDBC url(../images/mbox-tbg.png) left top no-repeat;
+	letter-spacing:1px;
+}
+.tbox dt strong h3{
+	font-size:12px;
+}
+.tbox dt strong h2{
+	font-size:12px;
+}
+.tbox dt strong a{
+	color:#4A7749;
+}
+.tbox dt strong a:hover{
+	color:#444;
+	text-decoration:none;
+}
+.tbox dt span.more{
+	float:right;
+	position:relative;
+	line-height:25px;
+	padding-right:8px;
+	color:#85A484;
+}
+.tbox dt span.more a{
+	color:#7B9D79;
+	text-decoration:none;
+}
+.tbox dt span.more a:hover{
+	color:#333;
+}
+.tbox dt span.label{
+	height:24px;
+	float:right;
+	overflow:hidden;
+	padding-right:1px;
+	padding-top:2px;
+}
+.tbox dt span.label a{
+	height:25px;
+	display:block;
+	padding:0px 7px 0px 8px;
+	line-height:23px;
+	border-left:1px solid #C5DDBC;
+	float:left;
+	color:#666;
+	text-decoration:none;
+	overflow:hidden;
+	letter-spacing:1px;
+}
+.tbox dt span.label a:hover{
+	color:#360;
+}
+.tbox dt span.label a.thisclass{
+	background:#FFF;
+	color:#333;
+	border-top:3px solid #F1F7EE;
+}
+.tbox dd{
+	border-left:1px solid #C5DDBC;
+	border-right:1px solid #C5DDBC;
+	padding:4px 4px 0px;
+	overflow:hidden;
+}
+.tbox td{
+	word-wrap:break-word ;
+}
+/*--------------------------------------------------
+ box layout (prefix space:a,b)
+ ---------------------------------------------*/
+ 
+/*---------- a : 鏂囨湰鍒楄〃鍧� ---------*/
+
+/*---------- b : 鍥炬枃娣锋帓鍧� ---------*/
+
+
+/*-------------------------------------------------- 
+ list layout (prefix space:c,d,e,f)
+ ---------------------------------------------*/
+ 
+/*---------- c : 绾枃鏈垪琛� ---------*/
+.c1{/* 绾枃鏈摼鎺ュ垪琛� */
+	padding:4px 0px;
+	clear:right;
+}
+.c1 li{
+	height:27px;
+	line-height:27px;
+	overflow:hidden;
+	padding-left:16px;
+	background:url(../images/ico-2.gif) 7px 11px no-repeat;
+}
+.c1 a{
+}
+
+.c2{/* 姘村钩鍒囧垎鐨勪袱鍒楃函鏂囨湰閾炬帴鍒楄〃 */
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+	clear:both;
+}
+.c2 li{
+	width:44%;
+	margin-right:1%;
+	float:left;
+	height:27px;
+	line-height:27px;
+	overflow:hidden;
+	padding-left:16px;
+	background:url(../images/ico-2.gif) 7px 11px no-repeat;
+}
+
+/*---------- d : 闄勫姞淇℃伅鍒楄〃 ---------*/
+.d1{/* 鍓嶇疆鏃堕棿鏃ユ湡鐨勫皬鍒楄〃 */
+	padding:4px 0px;
+}
+.d1 li{
+	height:27px;
+	line-height:27px;
+	overflow:hidden;
+}
+.d1 li span{
+	color:#999;
+	padding-right:8px;
+	float:right;
+}
+.d1 li a{
+}
+.d2{/* 鍚庣疆鏃堕棿鏃ユ湡鐨勫皬鍒楄〃 */
+	padding:4px 0px;
+}
+.d2 li{
+	height:27px;
+	line-height:27px;
+	overflow:hidden;
+}
+.d2 li span{
+	color:#999;
+	float:right;
+	padding-right:10px;
+	margin-left:10px;
+}
+.d2 li a{
+	overflow:hidden;
+}
+.d4{/*甯﹀唴瀹圭畝浠嬬殑灏忓垪琛�*/
+	padding:0px 0px;
+}
+.d4 li{
+	height:60px;
+	padding:4px 8px;
+	border-bottom:1px dashed #DCEBD7;
+	overflow:hidden;
+}
+.d4 li a{
+	display:block;
+	line-height:23px;
+	overflow:hidden;
+	text-indent:14px;
+	background:url(../images/ico-3.gif) 4px 9px no-repeat;
+}
+.d4 li p{
+	color:#888;
+	line-height:17px;
+	height:33px;
+	overflow:hidden;
+}
+.d5{/* 鍚庣疆鏃堕棿鏃ユ湡鐨勫ぇ鍒楄〃 */
+	padding:8px;
+	border-bottom:1px solid #EEE;
+}
+.d5 li{
+	height:41px;
+	line-height:41px;
+	background:url(../images/ico-2.gif) 2px 17px no-repeat;
+	padding-left:16px;
+}
+.d5 li a{
+	font-size:14px;
+}
+.d5 li span{
+	margin-left:10px;
+	color:#999;
+}
+/*---------- e : 鍥炬枃娣锋帓鍒楄〃 ---------*/
+.e1{/* 妯悜娴姩鐨勫浘鐗囧垪琛� 120*90  */
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	padding:5px 0px;
+}
+.e1 li{
+	width:68px;
+	overflow:hidden;
+	padding-left:5px;
+	float:left;
+	text-align:center;
+}
+.e1 li a{
+	display:block;
+}
+.e1 li a:hover img{
+	border:1px solid #999;
+	padding:2px;
+}
+.e1 li a img{
+	display:block;
+	border:1px solid #E3E3E3;
+	padding:2px;
+	width:52px;
+	height:52px;
+}
+.e1 li a span{
+	display:block;
+	line-height:17px;
+}
+.e1 li span{
+	
+}
+.e2{/* 鏂囩珷鍒楄〃椤祃ist */
+	
+}
+.e2 li{
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	padding:4px 0px;
+	border-bottom:1px dashed #C5DDBC;
+}
+.e2 li a.preview{
+	width:84px;
+	float:left;
+	margin-right:7px;
+	margin-bottom:3px;
+	margin-left:10px;
+	display:inline;
+}
+.e2 li a.preview img{
+	width:80px;
+	/*height:60px;*/
+	display:block;
+	padding:1px;
+	border:1px solid #EEE;
+}
+.e2 li a.preview:hover img{
+	border:1px solid #AAA;
+}
+.e2 li a.title{
+	overflow:hidden;
+	line-height:22px;
+	font-size:13px;
+	font-weight:bold;
+	color:#390;
+	padding-left:20px;
+	background:url(../images/ico-list.jpg) -2px -1px no-repeat;
+}
+.e2 li a.fleft{
+	background-position:-2px 2px;
+}
+.e2 li a.title:hover{
+	color:#F60;
+}
+.e2 span.info{
+	display:block;
+	line-height:17px;
+	color:#666;
+}
+.e2 span.fright{
+	line-height:22px;
+}
+.e2 span.info small{
+	color:#AAA;
+	font-size:12px;
+}
+.e2 span.info a{
+	color:#9A9;
+}
+.e2 span.info a:hover{
+	color:#F60;
+}
+.e2 p.intro{
+	color:#777777;
+	line-height:21px;
+	padding-bottom:2px;
+	
+}
+.e2 li.ad468{
+	padding-left:10px;
+}
+.e2 li.note{
+	margin-top:3px;
+	padding-bottom:5px;
+	background-color:#FCFEFC;
+}
+.e2 li.note h1{
+	font-size:16px;
+	color:#3A0;
+	padding:5px;
+	text-align:center;
+}
+.e3{/* 鍥炬枃娣锋帓灏忓垪琛� */	
+	clear:both;
+	overflow:hidden;
+}
+.e3 li{
+	height:50px;
+	overflow:hidden;
+	padding:6px;
+	border-bottom:1px dashed #DCEBD7;
+}
+.e3 li a.preview{
+	width:58px;
+	height:48px;
+	float:left;
+	display:block;
+	margin-right:6px;
+	overflow:hidden;
+}
+.e3 li a.preview img{
+	width:58px;
+	height:48px;
+}
+
+.e3 li a.title{
+	height:21px;
+	display:block;
+	line-height:21px;
+	overflow:hidden;
+}
+.e3 li .intro{
+	color:#777;
+	display:block;
+	float:left;
+	line-height:23px;
+}
+.e6{/* 妯帓灏忓浘鍒楄〃 102*70 (浠呬緵棣栭〉鍥炬枃娣锋帓鍒楄〃浣跨敤) */
+	height:81px;
+	clear:both;
+	overflow:hidden;
+}
+.e6 li{
+	display:block;
+	width:104px;
+	padding:6px 6px 0px 0px;
+	overflow:hidden;
+	float:left;
+}
+.e6 li a{
+	width:102px;
+	height:73px;
+	overflow:hidden;
+	display:block;
+	border:1px solid #ccd5cc;
+}
+.e6 li a img{
+	display:block;
+	width:102px;
+	height:73px;
+}
+.e6 li a:hover{
+	border:1px solid #999;
+}
+.e7{/* 妯帓灏忓浘鍒楄〃 52*52 (鐢ㄦ埛澶村儚鍒楄〃) */
+	clear:both;
+	overflow:hidden;
+}
+.e7 li{
+	width:60px;
+	height:86px;
+	float:left;
+	overflow:hidden;
+	padding-left:11px;
+}
+.e7 li a{
+	display:block;
+	margin:0px auto;
+	text-align:center;
+}
+.e7 li a img{
+	width:52px;
+	height:52px;
+	display:block;
+	margin:0px auto 6px;
+	padding:2px;
+	border:1px solid #DDD;
+}
+.e7 li a:hover img{
+	border:1px solid #AAA;
+}
+/*---------- f : 鐗规畩鍒楄〃 ---------*/
+.f0{/* 璇勮涓撶敤鍒楄〃 */
+	overflow:hidden;
+}
+.f0 li{
+	height:52px;
+	clear:both;
+	overflow:hidden;
+	border-bottom:1px dashed #DCEBD7;
+	padding:0px 8px;
+}
+.f0 small{
+	display:block;
+	height:21px;
+	padding-top:6px;
+	line-height:21px;
+	overflow:hidden;
+	font-size:12px;
+	color:#999;
+}
+.f0 small span{
+	color:#696;
+}
+.f0 p{
+	height:21px;
+	overflow:hidden;
+	line-height:21px;
+	color:#888;
+	text-indent:px;
+}
+.f0 h2 a{
+	display:block;
+	height:47px;
+	width:190px;
+	margin:2px auto;
+	overflow:hidden;
+	line-height:47px;
+	font-size:0px;
+	text-indent:-400px;
+	background:url(../images/wish.jpg) 0px 0px no-repeat;
+}
+
+.f2{/* 璇勮涓撶敤鍒楄〃 */
+	overflow:hidden;
+}
+.f2 li{
+	height:73px;
+	clear:both;
+	overflow:hidden;
+	border-bottom:1px dashed #DCEBD7;
+	padding:0px 8px;
+}
+.f2 small{
+	display:block;
+	height:21px;
+	padding-top:6px;
+	line-height:21px;
+	overflow:hidden;
+	font-size:12px;
+	color:#999;
+}
+.f2 small a.username{
+	color:;
+}
+.f2 p{
+	height:42px;
+	overflow:hidden;
+	line-height:21px;
+	color:#888;
+	text-indent:17px;
+	background:url(../images/ico-comment-quote.gif) 0px 4px no-repeat;
+}
+
+.f4{/*鍙嬫儏閾炬帴(鍥剧墖)涓撶敤*/
+
+}
+.f4 li{
+	width:94px;
+	height:37px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin:10px 12px 2px 8px;
+}
+.f4 li a{
+	width:88px;
+	height:31px;
+	overflow:hidden;
+	float:left;
+	border:3px solid #FFF;
+}
+.f4 li a:hover{
+	border:3px solid #EEE;
+}
+.f5{/*鍙嬫儏閾炬帴(鏂囧瓧)涓撶敤*/
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	padding-bottom:10px;
+}
+.f5 li{
+	float:left;
+	line-height:14px;
+	padding:8px 10px 0px;
+	white-space:nowrap;
+}
+.f5 li.line{
+	display:block;
+	clear:both;
+	height:4px;
+	width:99%;
+	padding:0px;
+	border-bottom:1px dashed #C5DDBC;
+}
+.f5 li a{
+	color:#666666;
+	float:left;
+}
+
+.f6{/* 閾炬帴妯帓鑷€傚簲鍒楄〃 */
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	padding-bottom:10px;
+}
+.f6 li{
+	float:left;
+	line-height:14px;
+	padding:8px 10px 0px;
+	white-space:nowrap;
+}
+.f6 li a{
+	color:#666666;
+	float:left;
+}
+/*-------------------------------------------------- 
+ list icon
+ ---------------------------------------------*/
+.ico1 li{
+	padding-left:16px;
+	background:url(../images/ico-1.gif) 7px 11px no-repeat;
+}
+.ico2 li{
+	padding-left:16px;
+	background:url(../images/ico-2.gif) 6px 11px no-repeat;
+}
+.ico3 li{
+	padding-left:16px;
+	background:url(../images/ico-3.gif) 7px 11px no-repeat;
+}
+.ico-cloud li{
+	padding-left:24px;
+	background:url(../images/ico-cloud.gif) 11px 9px no-repeat;
+}
+
+
+
+
+/* ---- page.css ------*/
+
+
+
+.pleft{
+	width:650px;
+	float:left;
+	overflow:hidden;
+}
+.pleft .place{
+	width:648px;
+	height:24px;
+	line-height:24px;
+	background:#F1F7EE;
+	border:1px solid #C5DDBC;
+	text-indent:10px;
+	color:#CCC;
+	overflow:hidden;
+}
+.pleft .place h1,.pleft .place h2{
+	font-weight:normal;
+	font-size:12px;
+	float:right;
+	margin-right:10px;
+}
+.pleft .place strong{
+	color:#4A7749;
+	font-weight:normal;
+	letter-spacing:1px;
+}
+.pleft .place a{
+	color:#666;
+	margin:0px 2px;
+}
+.pleft .place a:hover{
+	color:#333;
+	text-decoration:none;
+}
+.pleft .place small{
+	display:inline-block;
+	vertical-align:middle;
+	width:8px;
+	height:20px;
+	*height:24px;
+	overflow:hidden;
+	background:url(../images/ico-3.gif) 2px 8px no-repeat;
+	font-size:0px;
+}
+.pleft .category-nav{
+	text-align:center;
+	margin:20px auto 0px;
+	padding-bottom:18px;
+	border-bottom:1px dashed #C5DDBC;
+}
+.pleft .category-nav li{
+	margin:0px 8px;
+	border-radius:3px;
+	background:#390;
+	padding:3px 5px;
+	display:inline;
+}
+.pleft .category-nav li a{
+	color:#FFF;
+}
+.pright{
+	width:300px;
+	float:right;
+	overflow:hidden;
+}
+.pright .ad250{
+}
+.dede_pages{
+}
+.dede_pages ul{
+	clear:both;
+	float:left;
+}
+.dede_pages ul li{
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:17px;
+}
+.dede_pages ul li a{
+	float:left;
+	padding:2px 4px 1px;
+	color:#666;
+	border-bottom:1px solid #EEE;
+}
+.dede_pages ul li a:hover{
+	color:#690;
+	text-decoration:none;
+	padding:2px 4px 1px;
+	border-bottom:1px solid #690;
+}
+.dede_pages ul li.thisclass a,.pagebox ul li.thisclass a:hover{
+	color:#F63;
+	padding:2px 4px 1px;
+	border-bottom:1px solid #F63;
+	font-weight:bold;
+}
+.articlelist .dede_pages ul{
+	padding-left:10px;
+}
+.articlelist .dede_pages ul li.thisclass{
+	color:#F63;
+	padding:2px 4px 1px;
+	border-bottom:1px solid #F63;
+	font-weight:bold;
+}
+.dede_pages .pageinfo{
+	float:right;
+	line-height:20px;
+	padding:2px 4px 1px 16px;
+	color:#999;
+}
+.dede_pages .pageinfo strong{
+	color:#666;
+	font-weight:normal;
+	margin:0px 2px;
+}
+/*---------- index ---------*/
+.index .bignews{
+	width:390px;
+	height:385px;
+	float:right;
+	border:1px solid #C5DDBC;
+	background:url(../images/new-bg.gif) left 1px repeat-x;
+	overflow:hidden;
+}
+.index .bignews a{
+	color:#666;
+}
+.index .bignews a:hover{
+	color:#F60;
+}
+.index .bignews .onenews{
+	padding:8px 10px;
+	border-left:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	border-bottom:1px dashed #C5DDBC;
+}
+.index .bignews .onenews h2{
+	display:block;
+	height:28px;
+	line-height:25px;
+	text-align:center;
+}
+.index .bignews .onenews h2 a{
+	font-size:16px;
+	color:#390;
+}
+.index .bignews .onenews p{
+	line-height:21px;
+	color:#666;
+}
+.index .bignews ul.d1{
+	padding:5px 4px;
+	clear:both;
+	overflow:hidden;
+}
+.index .bignews ul.d1 li{
+	width:48%;
+	padding-left:7px;
+	float:left;
+}
+.index .bignews ul.hr h2{
+	display:block;
+	font-size:12px;
+	color:#94B56A;
+	background-color:#FFF;
+	padding:0px 3px;
+	margin-left:-385px;
+	margin-right:317px;
+	float:right;
+}
+.index .bignews ul.hr li{
+	background-color:#E5EFD6;
+	height:1px;
+	width:382px;
+	margin-top:7px;
+	margin-left:3px;
+	float:left;
+}
+.index .bignews ul.c2{
+	padding:5px 5px 0px;
+	color:#777;
+	clear:both;
+	overflow:hidden;
+}
+.index .slideshow{
+	position:relative;
+	width:248px;
+	height:182px;
+	border:1px solid #C5DDBC;
+	overflow:hidden;
+	float:left;
+	zoom:1;
+}
+.index .slideshow .image{position:relative;width:248px;height:182px;overflow:hidden;color:#fff;}
+.index .slideshow .image ul{position:absolute;top:0;width:248px;height:182px;overflow:hidden;}
+.index .slideshow .image li{position:relative;float:left;width:248px;height:182px;overflow:hidden;}
+.index .slideshow .image a{display:block;}
+.index .slideshow .image img{width:248px;height:182px;}
+.index .slideshow .caption{position:absolute;bottom:0;width:248px;height:20px;line-height:20px;padding-left:5px;color:#fff;background:#393;background:rgba(0,102,0,0.6);}
+.index .slideshow .trigger{position:absolute;bottom:3px;right:5px;}
+.index .slideshow .trigger li{float:left;text-align:center;*height:14px;line-height:14px;margin:0 3px 0 0;padding:0 3px;color:#000;background:#eee;cursor:pointer;*/}
+.index .slideshow .trigger li{*letter-spacing:-4px;}
+.index .slideshow .trigger li.current{color:#fff;background:#ff7d01;}
+.index .latestnews{
+	width:250px;
+	margin-top:6px;
+	float:left;
+}
+.index .latestnews ul.d2{
+	padding-top:1px;
+}
+.index .latestnews ul a{
+	color:#666666;
+}
+.index .latestnews ul a:hover{
+	color:#F60;
+}
+.index .picnews{
+	width:650px;
+	float:left;
+	clear:both;
+	overflow:hidden;
+}
+.index .picnews .e7{
+	margin-left:-4px;;
+	padding-top:5px;
+}
+.index .listbox{
+	width:660px;
+	overflow:hidden;
+	float:left;
+	clear:both;
+	overflow:hidden;
+}
+.index .listbox .tl{
+	width:250px;
+}
+.index .listbox .tr{
+	width:392px;
+}
+.index .listbox .tl{
+	width:250px;
+}
+.index .listbox .ta{
+	width:650px;
+}
+.index .listbox dl{
+	margin-right:8px;
+	margin-top:8px;
+	float:left;
+}
+.index .listbox li{
+	padding-left:8px;
+	color:#777;
+}
+.index .picnews #member .di li{
+	width:45%;
+	margin-left:16px;
+	float:left;
+}
+.index .listbox ul a{
+	color:#777;
+}
+.index .listbox ul a:hover{
+	color:#F60;
+}
+.index .usercenter .tbox dd{
+	height:276px;
+}
+.index .userlogin{
+	padding-top:10px;
+}
+.index .userlogin .fb{
+	height:37px;
+}
+.index .userlogin .fb span{
+	float:left;
+	width:60px;
+	text-align:right;
+	padding-right:6px;
+	line-height:27px;
+	color:#888;
+}
+.index .userlogin .fb img{
+	vertical-align:middle;
+	margin-left:5px;
+}
+.index .userlogin .submit{
+	height:24px;
+	margin-bottom:5px;
+	text-align:center;
+	overflow:hidden;
+}
+.index .userlogin .submit a{
+	display:block;
+	height:24px;
+	line-height:24px;
+	color:#030;
+	vertical-align:middle;
+	margin-left:5px;
+	float:left;
+}
+.index .userlogin .submit .btn-1{
+	height:24px;
+	background: url(../images/btn-bg24.gif) no-repeat;
+	float:left;
+	margin-left:18px;
+}
+.index .userlogin .submit a.qqlogin{
+	margin-left:10px;
+	margin-right:5px;
+}
+.index .userinfo{
+	
+}
+.index .userinfo .welcome{
+	width:220px;
+	height:24px;
+	margin:12px auto;
+	background:#F9F9F9;
+	border-top:1px solid #EEE;
+	border-bottom:1px solid #EEE;
+	line-height:23px;
+	text-indent:10px;
+	color:#777;
+}
+.index .userinfo .welcome strong{
+	color:#F60;
+	font-weight:bold;
+}
+.index .userinfo .userface{
+	width:60px;
+	height:64px;
+	overflow:hidden;
+	padding-left:48px;
+	padding-top:2px;
+	float:left;
+}
+.index .userinfo .userface a{
+	display:block;
+	margin:0px auto;
+	text-align:center;
+}
+.index .userinfo .userface a img{
+	width:52px;
+	height:52px;
+	display:block;
+	margin:0px auto 6px;
+	padding:2px;
+	border:1px solid #DDD;
+}
+.index .userinfo .mylink{
+	width:144px;
+	float:left;
+	overflow:hidden;
+}
+.index .userinfo .mylink ul{
+}
+.index .userinfo .mylink ul li{
+	width:72px;
+	float:left;
+	line-height:21px;
+	text-indent:12px;
+}
+.index .userinfo .mylink ul li a{
+	color:#666;	
+}
+.index .userinfo .uclink{
+	height:31px;
+	line-height:31px;
+	clear:both;
+	overflow:hidden;
+	text-align:center;
+	color:#DDD;
+}
+.index .userinfo .uclink a{
+	color:#690;
+	margin:0px 2px;
+}
+.index .usercenter .d2 a{
+	color:#777777;
+}
+.index .usercenter .d2 a:hover{
+	color:#F60;
+}
+.index .ico-cloud{
+	padding-top:10px;
+}
+.index .scores dl dd ul li{
+	height:24px;
+	line-height:24px;
+	background-position:6px 9px;
+}
+.index .info dl dd{
+	padding:11px 0px 5px 25px;
+}
+.index .info dl dd ul li{
+	float:left;
+	position:relative;
+	margin:0px 20px 6px 0px;
+}
+.index .info dl dd ul li a{
+	width:104px;
+	height:24px;
+	text-decoration:none;
+	display:inline-block;
+	position:relative;
+	color:#666;
+	border:1px solid #ccc;
+	border-radius:2px;
+	line-height:24px;
+}
+.index .info dl dd ul li .apk{
+	width:110px;
+	height:120px;
+	line-height:30px;
+	padding-top:2px;
+	text-align:center;
+	border:0px;
+	border-radius:0px;
+}
+.index .info dl dd ul li a span{
+	width:24px;
+	height:24px;
+	background-color:#fbfbfb;
+	border-right:1px solid #ccc;
+	margin-right:10px;
+	opacity:.8;
+	filter:alpha(opacity=80);
+	float:left;
+}
+.index .info dl dd ul li a strong{
+	width:16px;
+	height:16px;
+	line-height:99px;
+	overflow:hidden;
+	margin:4px;
+	float:left;
+	background:url(../images/share.png) no-repeat;
+}
+.index .info .tqq strong{
+	background-position:0 0px;
+}
+.index .info .weibo strong{
+	background-position:0 -16px;
+}
+.index .info .qzone strong{
+	background-position:0 -32px;
+}
+.index .info .qun strong{
+	background-position:0 -48px;
+}
+.index .info .feed strong{
+	background-position:0 -64px;
+}
+.index .info .favicon strong{
+	background-position:0 -80px;
+}
+.index .info .call strong{
+	background-position:0 -96px;
+}
+.index .info .mail strong{
+	background-position:0 -112px;
+}
+.index .info dl dd ul li a:hover{
+	color:#444;
+	border-color:#bbb;
+}
+.index .info dl dd ul li a:hover span{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+/*---------- viewbox ---------*/
+.viewbox{
+	border:1px solid #C5DDBC;
+	border-top:none;
+	overflow:hidden;
+	padding:0px 23px 8px 23px;
+}
+.viewbox div.title{
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	overflow:hidden;
+}
+.viewbox div.title h1{
+	font-size:22px;
+	color:#3A0;
+	display:inline;
+}
+.viewbox .title #jian{
+	padding-left:30px;
+	background:url(../images/jian.png) 0px 3px no-repeat;
+	display:inline;
+}
+.viewbox div.info{
+	height:20px;
+	line-height:12px;
+	border-bottom:1px dashed #C5DDBC;
+	text-align:center;
+	overflow:hidden;
+	color:#777;
+}
+.viewbox div.info small{
+	margin-left:8px;
+	margin-right:3px;
+	color:#999;
+	font-size:12px;
+}
+.viewbox div.info a{
+	color:#f60;
+}
+.viewbox .infolist{
+	width:368px;
+	float:left;
+}
+.viewbox .infolist small{
+	width:100px;
+	text-align:right;
+	display:block;
+	float:left;
+	font-size:12px;
+	line-height:31px;
+	color:#999;
+	clear:left;
+	height:31px;
+	overflow:hidden;
+}
+.viewbox .infolist span{
+	width:200px;
+	line-height:30px;
+	float:left;
+	height:31px;
+	overflow:hidden;
+}
+.viewbox .picview{
+	width:320px;
+	float:right;
+	padding-right:24px;
+	padding-top:16px;
+}
+
+.viewbox .content{
+	font-size:16px;
+	padding:12px 0px 2px 0px;
+	line-height:32px;
+	color:#222;
+
+}
+/*
+.viewbox .content pre{
+	font-size:16px;
+	padding:12px 0px 2px 0px;
+	line-height:32px;
+	color:#222;
+	}
+*/
+.viewbox .content .intro{
+	width:336px;
+	margin-left:6px;
+	float:right;
+}
+.viewbox .content a{
+	color:#333;
+}
+.viewbox .content p{
+	text-indent:2em;
+	margin-bottom:16px;
+}
+.viewbox .duanwen .ad336{
+	width:336px;
+	margin:0px auto 10px;
+}
+.viewbox .duanwen p{
+	text-indent:0em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-bottom:12px;
+}
+.viewbox .content p img{
+	margin-left:25px;
+}
+.viewbox .content .dede_pages{
+	width:468px;
+	font-size:12px;
+	overflow:hidden;
+	text-align:center;
+	margin:0px auto;
+}
+.viewbox .content .dede_pages ul{
+	margin:0px auto;
+	float:none;
+	clear:both;
+	overflow:hidden;
+	text-align:center;
+	white-space:nowrap;
+}
+.viewbox .content .dede_pages ul li,.viewbox .content .dede_pages ul li a{
+	float:none;
+	display:inline;
+}
+#jian_info{
+	clear:both;
+	width:548px;
+	height:44px;
+	border:1px solid #9FCD75;
+	background-color:#F1FDE9;
+	font-size:12px;
+	text-indent:2em;
+	line-height:20px;
+	padding:5px;
+	margin:8px auto;
+}
+#jian_info a{
+	text-decoration:underline;
+}
+#share{
+	clear:both;
+	padding-top:5px;
+	margin-top:5px;
+}
+
+.viewbox .context{
+	border-top:1px dashed #C5DDBC;
+	overflow:hidden;
+	clear:both;
+}
+.viewbox .context h3{
+	font-size:13px;
+	color:#4A7749;
+	padding:12px 0px 3px 15px;
+	float:left;
+}
+.viewbox .context span{
+	padding:13px 0px 3px 0px;
+	float:left;
+}
+.viewbox .context ul{
+	clear:both;
+}
+.viewbox .context ul li{
+	width:30%;
+	font-size:13px;
+	overflow:hidden;
+	float:left;
+}
+
+.specialpic{
+	width:200px;
+	overflow:hidden;
+	float:left;
+	margin-right:20px;
+	padding-top:10px;
+}
+.specialpic img{
+	width:200px;
+	display:block;
+}
+.speciallist{
+	width:720px;
+	overflow:hidden;
+}
+.speciallist dl.tbox{
+	width:352px;
+	margin-right:8px;
+	margin-top:8px;
+	float:left;
+}
+.storypic{
+	width:160px;
+	overflow:hidden;
+	float:left;
+	margin-right:20px;
+	padding-top:10px;
+}
+.storypic img{
+	width:160px;
+	display:block;
+}
+.infos_userinfo{
+	overflow:hidden;
+}
+.infos_userinfo dd{
+	padding:12px;
+	overflow:hidden;
+	background:#FFF;
+}
+.infos_userinfo dd .userface{
+	width:70px;
+	height:70px;
+	padding:1px;
+	border:1px solid #DDD;
+	overflow:hidden;
+	float:left;
+	margin-right:12px;
+}
+.infos_userinfo dd .userface img{
+	width:70px;
+	height:70px;
+	overflow:hidden;
+	display:block;
+}
+.infos_userinfo dd .username{
+	height:24px;
+	line-height:19px;
+	display:block;
+	overflow:hidden;
+	font-weight:bold;
+	color:#F60;
+}
+.infos_userinfo dd .useract{
+	width:180px;
+	height:50px;
+	overflow:hidden;
+	float:left;
+}
+.infos_userinfo dd .useract-vi{
+	display:block;
+	clear:both;
+	line-height:20px;
+	height:24px;
+	overflow:hidden;
+	color:#777;
+}
+.infos_userinfo dd .useract-pm,.infos_userinfo  dd .useract-af{
+	float:left;
+	padding:3px 5px;
+	border:1px solid #DDD;
+	margin-right:6px;
+	overflow:hidden;
+}
+.infos_search dd{
+	padding:4px 4px 12px 8px;
+}
+.infos_search dd select,.infos_search dd input,.infos_search dd button{
+	margin-left:4px;
+	margin-top:8px;
+}
+.infos_search dd select{
+	font-size:14px;	
+}
+.tags_list dd{
+	padding:4px 12px;
+	line-height:220%;
+}
+.tags_list dd a{
+	margin-right:10px;
+	white-space:nowrap;
+}
+.tagc1{
+	font-size:12px;
+	color:#777;
+}
+.tagc2{
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+}
+.sp-title{
+	color:#888;
+	padding:4px 12px;
+	border-top:1px solid #EEE;
+	border-bottom:1px solid #EEE;
+	background:#FAFAFA;
+	margin-bottom:8px;
+}
+.sp-title h2,.sp-title h1{
+	font-size:16px;
+	line-height:27px;
+}
+.sp-title .more{
+	float:right;
+	margin:-27px 0px;
+	line-height:27px;
+}
+.resultlist .dede_pages{
+	height:33px;
+	clear:both;
+	overflow:hidden;
+}
+.resultlist .dede_pages ul{
+	float:left;
+	padding:6px 0px 0px 10px;
+}
+.resultlist .othersearch{
+	height:31px;
+	overflow:hidden;
+	clear:both;
+	background:#FAFAFA;
+	line-height:31px;
+	padding-left:10px;
+	margin-top:5px;
+}
+.resultlist .othersearch h2{
+	float:left;
+	font-size:14px;
+}
+.resultlist .othersearch ul{
+	width:680px;
+	height:31px;
+	float:left;
+	overflow:hidden;
+}
+.resultlist .othersearch ul li{
+	float:left;
+	margin-left:10px;
+	font-size:14px;
+	line-height:33px;
+}
+.linkbox{
+	padding:10px 8px;
+	border-bottom:1px solid #EEE;
+}
+.linkbox h3{
+	padding-left:10px;
+}
+.linkbox h3,.linkbox h3 a{
+	font-size:14px;
+	color:#693;
+}
+.buycar{
+	
+}
+.buycar h2{
+	font-size:14px;
+	color:#F60;
+	line-height:31px;
+}
+.buycar .flow{
+	width:100%;
+	border-left:1px solid #DEE79E;
+	border-right:1px solid #DEE79E;
+	border-top:1px solid #DEE79E;
+/*	border-collapse:collapse;*/
+	margin-bottom:16px;
+}
+.buycar .flow td{
+	height:23px;
+	line-height:19px;
+	background:#F8FAEB;
+	text-align:center;
+	color:#888;
+	overflow:hidden;
+	border-right:1px solid #EFF3CF;
+	border-bottom:1px solid #EFF3CF;
+	border-top:3px solid #FFF;
+	letter-spacing:3px;
+}
+.buycar .flow td.thisclass{
+	background:#FFF;
+	border-bottom:1px solid #FFF;
+	border-top:3px solid #F8FAEB;
+	font-weight:bold;
+	color:#333;
+}
+.flinkbox{
+	padding:4px 10px;
+}
+.formbox{
+	width:98%;
+	margin:0px auto;
+}
+.formbox .fb{
+	width:100%;
+	clear:both;
+	overflow:hidden;
+	padding-top:10px;
+	margin:0px auto;
+}
+.formbox .fb .name{
+	width:180px;
+	float:left;
+	height:31px;
+	text-align:right;
+	padding-right:10px;
+	line-height:31px;
+	font-size:14px;
+	color:#777;
+	display:block;
+}
+.formbox .fb .value{
+	float:left;
+}
+.formbox .fb .value img{
+	vertical-align:middle;
+}
+.dede_comment{
+	margin:0px 19px;
+}
+.dede_comment .decmt-box{
+	padding:6px 0px 8px;
+	border-bottom:1px dashed #C5DDBC;
+	overflow:hidden;
+	clear:both;
+}
+.dede_comment .decmt-box .decmt-mface{
+	height:42px;
+	width:42px;
+	padding:1px;
+	border:1px solid #DDD;
+	border-radius: 5px;
+	margin-bottom: -20px;
+	margin-top: 2px;
+	margin-right:8px;
+	float:left;
+}
+.dede_comment .decmt-box .decmt-mface img{
+	height:42px;
+	width:42px;
+	border-radius:3px;
+}
+.dede_comment .decmt-box .decmt-title{
+	color:#999;
+	font-family:Verdana, Geneva, sans-serif;
+	float:left;
+}
+.dede_comment .decmt-box .decmt-title span{
+	margin-right:2px;
+	vertical-align:middle;
+}
+.dede_comment .decmt-box .decmt-title .moodico{
+	height:18px;
+	width:18px;
+	display:inline-block;
+}
+.dede_comment .decmt-box .decmt-title .username{
+	color:#f60;
+}
+.dede_comment .decmt-box .decmt-title .username a{
+	color:#f60;
+}
+.dede_comment .decmt-box .decmt-title .username a:hover{
+	text-decoration:none;
+	color:#690;
+}
+.dede_comment .decmt-box .decmt-title .ip{
+	color:#669;
+	font-size:11px;
+}
+.dede_comment .decmt-box .decmt-title .date{
+	color:#666;
+	font-size:11px;
+}
+.dede_comment .decmt-box .decmt-act{
+	float:right;
+	padding-left:10px;
+	color:#999;
+}
+.dede_comment .decmt-box .decmt-act span{
+	margin-right:7px;
+}
+.dede_comment .decmt-box .decmt-act span a{
+	color:#888;
+}
+.dede_comment .decmt-box .decmt-content{
+	color:#555;
+	line-height:21px;
+	clear:both;
+	width:99%;
+	margin-left:55px;
+/*	background:url(../images/ico-comment-quote.gif) 0px 4px no-repeat;
+	text-indent:18px;*/
+}
+.dede_comment .decmt-box .decmt-content img{
+	vertical-align:middle;
+}
+.dede_comment .decmt-box .decmt-box{
+	background:#FFE;
+	border:1px solid #CCC;
+	margin:6px auto;
+}
+.dede_comment .decmt-box .decmt-box .decmt-title{
+	text-indent:4px;
+}
+.dede_comment .decmt-box .decmt-box .decmt-content{
+	color:#666;
+}
+.nocomment{
+	padding:10px;
+	color:#777;
+}
+.dede_comment_post{
+	padding:5px 23px;
+}
+.dcmp-title{
+	height:20px;
+	line-height:20px;
+	float:left;
+}
+.dcmp-title strong{
+	color:#444;
+	font-weight:normal;
+}
+.dcmp-title small{
+	font-size:12px;
+	color:#999;
+}
+.dcmp-stand{
+	float:right;
+	height:20px;
+	line-height:20px;
+	padding-right:10px;
+	position:relative;
+	color:#999;
+	vertical-align:middle;
+}
+.dcmp-stand strong{
+	font-weight:normal;
+	color:#444;
+}
+.dcmp-stand input{
+	margin-right:2px;
+}
+.dcmp-stand img{
+	vertical-align:middle;
+	margin-right:2px;
+}
+.dcmp-content{
+	padding-top:5px;
+}
+
+.dcmp-content textarea{
+	width:98%;
+	height:60px;
+}
+.dcmp-mood{
+	height:24px;
+	width:80%;
+	overflow:hidden;
+	clear:both;
+	padding-top:5px;
+}
+.dcmp-mood strong{
+	float:left;
+	color:#444;
+	font-weight:normal;
+	line-height:24px;
+}
+.dcmp-mood ul{
+	float:left;
+}
+.dcmp-mood ul li{
+	float:left;
+	margin-right:8px;
+}
+.dcmp-mood ul li input,.dcmp-mood ul li img{
+	vertical-align:middle;
+	margin-right:4px;
+	*margin-right:0px;
+}
+.dcmp-post{
+	margin-top:8px;
+	margin-bottom:5px;
+	height:24px;
+	overflow:hidden;
+	clear:both;
+	color:#444;	
+}
+.dcmp-post .dcmp-userinfo{
+
+}
+.dcmp-post .dcmp-userinfo input{
+	height:14px;
+	padding-right:3px;
+}
+.dcmp-post .dcmp-userinfo img{
+	margin-right:17px;
+	vertical-align:middle;
+}
+.dcmp-post .dcmp-userinfo button{
+	width:40px;
+	padding:4px 5px 4px 5px;
+	border:0px;
+	border-radius:3px;
+	background:#393;
+	letter-spacing:1px;
+	overflow:hidden;
+	color:#FFF;
+	cursor:pointer;
+	margin-left:1px;
+	margin-right:10px;
+	float:right;
+
+}
+.dcmp-post .dcmp-userinfo strong,.dcmp-post .dcmp-userinfo a{
+	padding-right:5px;
+}
+.hiddd{dispaly:none;}
+
+.remen dl dd ul li{
+float:left;
+width:128px;
+}
+
+
+
+
+
+/*---------- base ---------*/
+
+*{
+	padding:0px;
+	margin:0px;
+}
+html{
+	background:#FFF;
+}
+body{
+	font:12px Verdana,Arial,Tahoma;
+}
+img{
+	border:none;
+}
+a{
+	color:#696;
+	text-decoration:none;
+}
+a:hover{
+	color:#F60;
+	text-decoration:underline;
+}
+ul{
+	list-style:none;
+}
+input,select,button{
+	font:12px Verdana,Arial,Tahoma;
+	vertical-align:middle;
+}
+.listbox table {
+	width:100%;
+	border-collapse:collapse;
+	width:620px;
+	margin-left:8px;
+}
+.listbox tr{
+	background:#fff;
+}
+.listbox th {
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	background:#EFF6EB;
+	font-weight:normal;
+}
+.listbox td {
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	padding:2px 5px;
+	letter-spacing:5px;
+	word-break:break-all;
+}
+.listbox td a {
+	color:#06f;
+	text-decoration:none;
+	letter-spacing:0;
+}
+.listbox td a:hover {
+	color:#06f;
+	text-decoration:underline;
+}
+#rtop{
+	float:right;
+	position:relative;
+	line-height:25px;
+	padding-right:8px;
+	color:#85A484;
+}
+#rtop a{
+	color:#7B9D79;
+	text-decoration:none;
+}
+#rtop a:hover{
+	color:#333;
+}
+
+/*
+.listbox tr:hover {
+	background:#E9F4FD;
+}
+.content tr:hover {
+	background:#E9F4FD;
+}
+*/
+
+.content table {
+	width:600px;
+	border-collapse:collapse;
+	border: 1px solid #EFF6EB;
+}
+.content tr {
+	background:#fff;
+}
+
+.content th {
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	background:#EFF6EB;
+	font-weight:normal;
+}
+.content td {
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	padding:2px 10px;
+	word-break:break-all;
+}
+.content table.kuan tr td {
+	letter-spacing:5px;
+	word-wrap:break-word ;
+}
+.content table.tuan pre{
+	font-family: "宋体";
+	color:blue;
+	letter-spacing:0;
+	font-size:16px;
+	line-height:20px;
+	background:#E9F4FD;
+	padding:20px;
+}
+.content td a {
+	color:#06f;
+	text-decoration:none;
+}
+.content td a:hover {
+	color:#C5DDBCf;
+	text-decoration:underline;
+}
+.content table.font12 tr td{
+	font-size:12px;
+	}
+.content table.xian{
+	border:1px solid #000;
+	}
+.content table.xian tr td{
+	border:1px solid #000;
+	}
+.wmfh{
+	float:left;
+	}
+.wmfh li{
+	font-family:"宋体";
+	float:left;
+	overflow:hidden;
+	width:200px;
+	}
+.wmfh li:hover{
+	background:#E9F4FD;
+	}
+.qlfh{
+	float:left;
+	}
+.qlfh li{
+	font-family:"宋体";
+	float:left;
+	overflow:hidden;
+	width:300px;
+	}
+.qlfh li:hover{
+	background:#E9F4FD;
+	}
+.hbfh table{
+	width: 300px;
+	float: right;
+	border: 1px solid #EFF6EB;
+}
+.hbfh table tr td{
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	font-size:32px;
+}
+/*---------- stock ---------*/
+
+.center{
+	margin:0px auto;
+}
+.w960{
+	width:960px;
+	position:relative;
+}
+.mt6{/* ( margin-top * 5 ) */
+	margin-top:6px;
+}
+.mt1{/* ( margin-top * 1 ) */
+	margin-top:10px;
+}
+.mt2{/* ( margin-top * 2 ) */
+	margin-top:16px;
+}
+.mb2{
+	margin-bottom:20px;
+}
+.clear{
+	overflow:hidden;
+}
+.fs-12{
+	font-size:12px;
+}
+.fc-f60{
+	color:#F60;
+}
+.fc-f90{
+	color:#F90;
+}
+.fright{
+	float:right;
+}
+.fleft{
+	float:left;
+}
+.ipt-txt{
+	line-height:14px;
+	padding:4px 5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#666 #BBB #BBB #666;
+	font-size:12px;
+	margin-right:2px;
+}
+.ipt-txt-1{
+	line-height:14px;
+	padding:2px 2px;
+}
+.ipt-txt-2{
+	width:430px;
+  height:25px;
+  line-height:25px;
+  padding:2px 5px;
+  border:1px solid #9bce8c;
+}
+.btn-1{
+	width:56px;
+	height:23px;
+	border:none;
+	background:url(../images/btn-bg1.gif) no-repeat;
+	line-height:25px;
+	letter-spacing:1px;
+	overflow:hidden;
+	color:#2F592E;
+	cursor:pointer;
+}
+.btn-2{
+	width:68px;
+	height:23px;
+	border:1px solid #9b9b9b;
+	background:url(../images/btn-bg2.gif) left top repeat-x;
+	line-height:23px;
+	overflow:hidden;
+	color:#444;
+	cursor:pointer;
+	margin-right:2px;
+	vertical-align:middle;
+}
+.btn-3{
+	height:31px;
+	width:68px;
+  line-height:31px;
+	border:1px solid #9bce8c;
+	background:#f3faf3;
+	overflow:hidden;
+	color:#444;
+	cursor:pointer;
+	margin-left:12px;
+	vertical-align:middle;
+}
+
+/*---------- frame ---------*/
+
+/*---------- frame : header ---------*/
+
+.header{
+	width:100%;
+	overflow:hidden;
+}
+.header a{
+	color:#777;
+}
+
+.header a:hover{
+	color:#390;
+	text-decoration:none;
+}
+.header .top .title{
+	float:left;
+	padding-left:0px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.header .top .title h1 a,.header .top .title h2 a{
+	width:234px;
+	height:60px;
+	line-height:90px;
+	padding-top:15px;
+	margin: 0 auto;
+	text-align:center;
+	display:block;
+	font-size:0px;
+	text-indent:-200px;
+	overflow:hidden;
+	background:url(../images/logo.gif) center center no-repeat;
+}
+.header .top .welcome{
+	float:right;
+	margin-top:20px;
+	padding-right:10px;
+	color:#999;
+}
+.header .top .welcome a{
+	margin:0px 3px;	
+}
+.header .start{
+	height:20px;
+	padding-top:5px;
+	color:#999;
+	border-bottom:1px solid #EAEAEA;
+}
+.header .start ul{
+	height:19px;
+	overflow:hidden;
+}
+.header .start ul li{
+	line-height:19px;
+	padding:0px;
+}
+.header .start ul li h1{
+	font-size:12px;
+	font-weight:normal;
+}
+.header .start ul li.welcome{
+	margin-left:-4px;
+	color:#777;
+	float:left;
+	font-size:12px;
+}
+.header .start ul li.help{
+	float:right;
+}
+.header .head{
+	clear:both;
+	overflow:hidden;
+}
+.header .head .title{
+	clear:both;
+	height:90px;
+	margin:4px 0px;
+}
+.header .head .title li.logo{
+	width:234px;
+	height:60px;
+	line-height:90px;
+	padding-top:15px;
+	margin: 0 auto;
+	text-align:center;
+	display:block;
+	float:left;
+}
+.header .head .title li.topbanner{
+	display:block;
+	width:724px;
+	height:90px;
+	float:right;
+}
+.header .head .title li.rlink{
+	display:block;
+	width:258px;
+	height:60px;
+	float:left;
+	margin-left:17px;
+	overflow:hidden;
+	margin-top:3px;
+}
+.header .head .title li.rlink a{
+	display:block;
+	width:78px;
+	height:23px;
+	background:url(../images/toprlink-bg.gif) left top no-repeat;
+	float:left;
+	margin-right:8px;
+	margin-bottom:11px;
+	overflow:hidden;
+}
+.header .head .title li.rlink a span{
+	display:block;
+	line-height:21px;
+	text-indent:22px;
+	background-image:url(../images/toprlink-bg.gif);
+	background-repeat:no-repeat;
+}
+.header .head .title li.rlink a.r1 span{
+	background-position:0px -21px;
+}
+.header .head .title li.rlink a.r2 span{
+	background-position:0px -42px;
+}
+.header .head .title li.rlink a.r3 span{
+	background-position:0px -63px;
+}
+.header .head .title li.rlink a.r4 span{
+	background-position:0px -84px;
+}
+.header .head .title li.rlink a.r5 span{
+	background-position:0px -105px;
+}
+.header .head .title li.rlink a.r6 span{
+	background-position:0px -126px;
+}
+
+/*---------- header : nav ---------*/
+.header .nav{
+	clear:both;
+	width:100%;
+	height:32px;
+	background:#339900 url(../images/nav-bg-2.gif) no-repeat 0px 0px;
+}
+.header .nav ul{
+	height:22px;
+	padding:5px 0px 5px 0px;
+	margin-left:11px;
+	overflow:hidden;
+	float:left;
+}
+.header .nav ul li{
+	height:22px;
+	float:left;
+	overflow:hidden;
+	margin-left:-2px;
+	background:url(../images/nav-hover.gif) no-repeat 0 4px;
+}
+.header .nav ul li a{
+	height:22px;
+	line-height:22px;
+	display:block;
+	padding-left:16px;
+	padding-right:16px;
+	float:left;
+	overflow:hidden;
+}
+.header .nav ul li a span{
+	color:#FFFFFF;
+}
+.header .nav ul li a:hover{
+	text-decoration:underline;
+}
+.header .nav ul li a:hover span{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+.header .subnav{
+	clear:both;
+	padding-bottom:7px;
+	border:1px solid #C5DDBC;
+	border-top:none;
+	overflow:hidden;
+}
+.header .subnav ul{
+	margin:0 0 0 5px;
+	overflow:hidden;
+}
+.header .subnav li{
+	width:86px;
+	height:15px;
+	float:left;
+	text-align:center;
+	margin-top:8px;
+	margin-left:-2px;
+	padding-left:2px;
+	background:url(../images/subnav-bg.png) no-repeat 0px 2px;
+}
+
+.header .search{
+	height:60px;
+	margin-top:8px;
+	float:left;
+}
+.header .search .form{
+	padding:25px 20px 0px 30px;
+	float:left;
+}
+.header .search .hisearch{
+	float:left;
+	padding-top:35px;
+}
+
+.resultlist .searchbox{
+	clear:both;
+	width:100%;
+}
+.resultlist .searchad{
+	clear:both;
+	width:100%;
+	margin:10px 0px 10px 0px;
+}
+.resultlist .mb2{
+	margin-bottom:20px;
+}
+.resultlist .searchbox span.litnav{
+	clear:both;
+	display:block;
+	margin:100px 180px 8px 180px;
+}
+.resultlist .searchbox span.litnav a{
+	font-size:14px;
+	margin-left:15px;
+	text-decoration:underline;
+}
+.resultlist .searchbox span.search{
+	clear:both;
+	display:block;
+	margin:0px 180px 120px 180px;
+}
+
+/*---------- frame : channel-nav ---------*/
+
+.channel-nav{
+	width:958px;
+	height:30px;
+	border:1px solid #C5DDBC;
+	border-top:none;
+	overflow:hidden;
+}
+.channel-nav .form{
+	padding:4px 0 0 8px;
+	float:left;
+}
+.channel-nav .form li{
+	color:#777;
+	line-height:20px;
+	float:left;
+}
+.channel-nav .qq{
+	float:left;
+}
+.channel-nav .message{
+	display:block;
+	height:22px;
+	color:#666;
+	line-height:22px;
+	padding:5px 8px 0px 29px;
+	float:right;
+	background:url(../images/ico-message.gif) 9px 9px no-repeat;
+} 
+.channel-nav .message a{
+	color:#94B56A;
+}
+.channel-nav .message a:hover{
+	color:#390;
+}
+#note .note_c{
+	height:76px;
+	border:1px solid #C5DDBC;
+	overflow:hidden;
+	float:left;
+}
+#note .note_c .note_img{
+	width:76px;
+	height:76px;
+	float:left;
+}
+#note .note_c p{
+	padding:5px;
+	line-height:21px;
+	color:#666;
+	overflow:hidden;
+}
+#note .note_c .note_t{
+	position:relative;
+	width:695px;
+	height:82px;
+	top:-6px;
+	overflow:hidden;
+}
+/*---------- frame : footer -#4A7749--------*/
+.tags .tbox dd{
+	border-top:1px solid #C5DDBC;
+}
+.tags .tbox dd strong{
+	color:#696;
+}
+.tags .tbox dd h3{
+	font-size:12px;
+}
+
+.footer{
+	color:#999;
+	text-align:center;
+	padding-bottom:10px;
+	border-top:1px solid #E5EFD6;
+	padding-top:10px;
+}
+.footer .link{
+	padding:5px 0px;
+}
+.footer .powered{
+	line-height:25px;
+}
+.footer .powered a{
+	color:#999;
+}
+.footer .copyright{
+	line-height:23px;
+}
+
+.index .usercenter .tbox{
+	border-bottom:1px dotted #E5EFD6;
+}
+.index .tags .tbox dd{
+	border-top:none;
+}
+.all-js{
+	display:none;
+}
+
+
+
+.listbox1 table {
+	width:100%;
+	border-collapse:collapse;
+	width:620px;
+	margin-left:8px;
+}
+.listbox1 tr{
+	background:#fff;
+}
+.listbox1 th {
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	background:#EFF6EB;
+	font-weight:normal;
+}
+.listbox1 td {
+	font-size:12px;
+	padding:2px 5px;
+	background:#E9F4FD;
+	word-break:break-all;
+}
+.listbox1 td a {
+	color:#06f;
+	text-decoration:none;
+	letter-spacing:0;
+}
+.listbox1 td a:hover {
+	color:#06f;
+	text-decoration:underline;
+}
+.bannerad{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+#list-ad1{
+margin-bottom:10px;
+}
+.emojilistpc ul li span{
+margin-right:20px;
+}
+ </style>
+
+
+
+
+
+
+
+   </head>
+<body>
+<div class="w960 center clear">
+<div class="pleft" style="margin-top:2px;">
+   <div class="listbox">
+      <dl class="tbox ta">
+         <dt>
+            <strong>
+               <h2>常用符号大全</h2>
+            </strong>
+         </dt>
+         <dd>
+            <table>
+               <tr>
+                  <th><a href="#teshufuhao">特殊符号</a> <a href="#bianhaoxuhao">编号序号</a> <a href="#shuxuefuhao">数学符号</a> <a href="#aixinfuhao">爱心符号</a> <a href="#biaodianfuhao">标点符号</a> <a href="#danweifuhao">单位符号</a> <a href="#huobifuhao">货币符号</a> <a href="#jiantoufuhao">箭头符号</a> <a href="#fuhaotuan">符号图案</a> <a href="#xilazimu">希腊字母</a> <a href="#eyuzimu">俄语字母</a> <br /><a href="#hanyupinyin">汉语拼音</a> <a href="#zhongwenzifu">中文字符</a> <a href="#riyu">日语字符</a> <a href="#zhibiaofu">制表符</a> <a href="#huangguanfuhao">皇冠符号</a> <a href="#emojifuhao">emoji符号</a></th>
+               </tr>
+               <tr>
+                  <td>❤❥웃유♋☮✌☏☢☠✔☑♚▲♪✈✞÷↑↓◆◇⊙■□△▽¿─│♥❣♂♀☿Ⓐ✍✉☣☤✘☒♛▼♫⌘☪≈←→◈◎☉★☆⊿※¡━┃♡ღツ☼☁❅♒✎©®™Σ✪✯☭➳卐√↖↗●◐Θ◤◥︻〖〗┄┆℃℉°✿ϟ☃☂✄¢€£∞✫★½✡×↙↘○◑⊕◣◢︼【】┅┇☽☾✚〓▂▃▄▅▆▇█▉▊▋▌▍▎▏↔↕☽☾の•▸◂▴▾┈┊①②③④⑤⑥⑦⑧⑨⑩ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ㍿▓♨♛❖♓☪✙┉┋☹☺☻تヅツッシÜϡﭢ™℠℗©®♥❤❥❣❦❧♡۵웃유ღ♋♂♀☿☼☀☁☂☄☾☽❄☃☈⊙☉℃℉❅✺ϟ☇♤♧♡♢♠♣♥♦☜☞☝✍☚☛☟✌✽✾✿❁❃❋❀⚘☑✓✔√☐☒✗✘ㄨ✕✖✖⋆✢✣✤✥❋✦✧✩✰✪✫✬✭✮✯❂✡★✱✲✳✴✵✶✷✸✹✺✻✼❄❅❆❇❈❉❊†☨✞✝☥☦☓☩☯☧☬☸✡♁✙♆。，、＇：∶；?‘’“”〝〞ˆˇ﹕︰﹔﹖﹑•¨….¸;！´？！～—ˉ｜‖＂〃｀@﹫¡¿﹏﹋﹌︴々﹟#﹩$﹠&﹪%*﹡﹢﹦﹤‐￣¯―﹨ˆ˜﹍﹎+=<＿_-\ˇ~﹉﹊（）〈〉‹›﹛﹜『』〖〗［］《》〔〕{}「」【】︵︷︿︹︽_﹁﹃︻︶︸﹀︺︾ˉ﹂﹄︼☩☨☦✞✛✜✝✙✠✚†‡◉○◌◍◎●◐◑◒◓◔◕◖◗❂☢⊗⊙◘◙◍⅟½⅓⅕⅙⅛⅔⅖⅚⅜¾⅗⅝⅞⅘≂≃≄≅≆≇≈≉≊≋≌≍≎≏≐≑≒≓≔≕≖≗≘≙≚≛≜≝≞≟≠≡≢≣≤≥≦≧≨≩⊰⊱⋛⋚∫∬∭∮∯∰∱∲∳%℅‰‱㊣㊎㊍㊌㊋㊏㊐㊊㊚㊛㊤㊥㊦㊧㊨㊒㊞㊑㊒㊓㊔㊕㊖㊗㊘㊜㊝㊟㊠㊡㊢㊩㊪㊫㊬㊭㊮㊯㊰㊙㉿囍♔♕♖♗♘♙♚♛♜♝♞♟ℂℍℕℙℚℝℤℬℰℯℱℊℋℎℐℒℓℳℴ℘ℛℭ℮ℌℑℜℨ♪♫♩♬♭♮♯°øⒶ☮✌☪✡☭✯卐✐✎✏✑✒✍✉✁✂✃✄✆✉☎☏➟➡➢➣➤➥➦➧➨➚➘➙➛➜➝➞➸♐➲➳⏎➴➵➶➷➸➹➺➻➼➽←↑→↓↔↕↖↗↘↙↚↛↜↝↞↟↠↡↢↣↤↥↦↧↨➫➬➩➪➭➮➯➱↩↪↫↬↭↮↯↰↱↲↳↴↵↶↷↸↹↺↻↼↽↾↿⇀⇁⇂⇃⇄⇅⇆⇇⇈⇉⇊⇋⇌⇍⇎⇏⇐⇑⇒⇓⇔⇕⇖⇗⇘⇙⇚⇛⇜⇝⇞⇟⇠⇡⇢⇣⇤⇥⇦⇧⇨⇩⇪➀➁➂➃➄➅➆➇➈➉➊➋➌➍➎➏➐➑➒➓㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ⒜⒝⒞⒟⒠⒡⒢⒣⒤⒥⒦⒧⒨⒩⒪⒫⒬⒭⒮⒯⒰⒱⒲⒳⒴⒵ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫⅬⅭⅮⅯⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅺⅻⅼⅽⅾⅿ┌┍┎┏┐┑┒┓└┕┖┗┘┙┚┛├┝┞┟┠┡┢┣┤┥┦┧┨┩┪┫┬┭┮┯┰┱┲┳┴┵┶┷┸┹┺┻┼┽┾┿╀╁╂╃╄╅╆╇╈╉╊╋╌╍╎╏═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬◤◥◄►▶◀◣◢▲▼◥▸◂▴▾△▽▷◁⊿▻◅▵▿▹◃❏❐❑❒▀▁▂▃▄▅▆▇▉▊▋█▌▍▎▏▐░▒▓▔▕■□▢▣▤▥▦▧▨▩▪▫▬▭▮▯㋀㋁㋂㋃㋄㋅㋆㋇㋈㋉㋊㋋㏠㏡㏢㏣㏤㏥㏦㏧㏨㏩㏪㏫㏬㏭㏮㏯㏰㏱㏲㏳㏴㏵㏶㏷㏸㏹㏺㏻㏼㏽㏾㍙㍚㍛㍜㍝㍞㍟㍠㍡㍢㍣㍤㍥㍦㍧㍨㍩㍪㍫㍬㍭㍮㍯㍰㍘☰☲☱☴☵☶☳☷☯</td>
+               </tr>
+               <tr>
+               <tr>
+                  <th id="teshufuhao">特殊符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>♠♣♧♡♥❤❥❣♂♀✲☀☼☾☽◐◑☺☻☎☏✿❀№↑↓←→√×÷★℃℉°◆◇⊙■□△▽¿½☯✡㍿卍卐♂♀✚〓㎡♪♫♩♬㊚㊛囍㊒㊖Φ♀♂‖$@*&#※卍卐Ψ♫♬♭♩♪♯♮⌒¶∮‖€￡¥$</td>
+               </tr>
+               <tr>
+                  <th id="bianhaoxuhao">编号序号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>
+                     ①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳⓪❶❷❸❹❺❻❼❽❾❿⓫⓬⓭⓮⓯⓰⓱⓲⓳⓴㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ⒜⒝⒞⒟⒠⒡⒢⒣⒤⒥⒦⒧⒨⒩⒪⒫⒬⒭⒮⒯⒰⒱⒲⒳⒴⒵
+                  </td>
+               </tr>
+               <tr>
+                  <th id="shuxuefuhao">数学符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>
+                     ﹢﹣×÷±/=≌∽≦≧≒﹤﹥≈≡≠=≤≥<>≮≯∷∶∫∮∝∞∧∨∑∏∪∩∈∵∴⊥∥∠⌒⊙√∟⊿㏒㏑%‰⅟½⅓⅕⅙⅛⅔⅖⅚⅜¾⅗⅝⅞⅘≂≃≄≅≆≇≈≉≊≋≌≍≎≏≐≑≒≓≔≕≖≗≘≙≚≛≜≝≞≟≠≡≢≣≤≥≦≧≨≩⊰⊱⋛⋚∫∬∭∮∯∰∱∲∳%℅‰‱øØπ
+                  </td>
+               </tr>
+               <tr>
+                  <th id="aixinfuhao">爱心符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>♥❣ღ♠♡♤❤❥</td>
+               </tr>
+               <tr>
+                  <th id="biaodianfuhao">标点符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>。，、＇：∶；?‘’“”〝〞ˆˇ﹕︰﹔﹖﹑•¨….¸;！´？！～—ˉ｜‖＂〃｀@﹫¡¿﹏﹋﹌︴々﹟#﹩$﹠&﹪%*﹡﹢﹦﹤‐￣¯―﹨ˆ˜﹍﹎+=<＿_-\ˇ~﹉﹊（）〈〉‹›﹛﹜『』〖〗［］《》〔〕{}「」【】︵︷︿︹︽_﹁﹃︻︶︸﹀︺︾ˉ﹂﹄︼❝❞</td>
+               </tr>
+               <tr>
+                  <th id="danweifuhao">单位符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>°′″＄￥〒￠￡％＠℃℉﹩﹪‰﹫㎡㏕㎜㎝㎞㏎m³㎎㎏㏄º○¤%$º¹²³</td>
+               </tr>
+               <tr>
+                  <th id="huobifuhao">货币符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>€£Ұ₴$₰¢₤¥₳₲₪₵元₣₱฿¤₡₮₭₩ރ円₢₥₫₦zł﷼₠₧₯₨Kčर₹ƒ₸￠</td>
+               </tr>
+               <tr>
+                  <th id="jiantoufuhao">箭头符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>↑↓←→↖↗↘↙↔↕➻➼➽➸➳➺➻➴➵➶➷➹▶►▷◁◀◄«»➩➪➫➬➭➮➯➱⏎➲➾➔➘➙➚➛➜➝➞➟➠➡➢➣➤➥➦➧➨↚↛↜↝↞↟↠↠↡↢↣↤↤↥↦↧↨⇄⇅⇆⇇⇈⇉⇊⇋⇌⇍⇎⇏⇐⇑⇒⇓⇔⇖⇗⇘⇙⇜↩↪↫↬↭↮↯↰↱↲↳↴↵↶↷↸↹☇☈↼↽↾↿⇀⇁⇂⇃⇞⇟⇠⇡⇢⇣⇤⇥⇦⇧⇨⇩⇪↺↻⇚⇛♐</td>
+               </tr>
+               <tr>
+                  <th id="fuhaotuan">符号图案<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>✐✎✏✑✒✍✉✁✂✃✄✆✉☎☏☑✓✔√☐☒✗✘ㄨ✕✖✖☢☠☣✈★☆✡囍㍿☯☰☲☱☴☵☶☳☷☜☞☝✍☚☛☟✌♤♧♡♢♠♣♥♦☀☁☂❄☃♨웃유❖☽☾☪✿♂♀✪✯☭➳卍卐√×■◆●○◐◑✙☺☻❀⚘♔♕♖♗♘♙♚♛♜♝♞♟♧♡♂♀♠♣♥❤☜☞☎☏⊙◎☺☻☼▧▨♨◐◑↔↕▪▒◊◦▣▤▥▦▩◘◈◇♬♪♩♭♪の★☆→あぃ￡Ю〓§♤♥▶¤✲❈✿✲❈➹☀☂☁【】┱┲❣✚✪✣✤✥✦❉❥❦❧❃❂❁❀✄☪☣☢☠☭ღ▶▷◀◁☀☁☂☃☄★☆☇☈⊙☊☋☌☍ⓛⓞⓥⓔ╬『』∴☀♫♬♩♭♪☆∷﹌の★◎▶☺☻►◄▧▨♨◐◑↔↕↘▀▄█▌◦☼♪の☆→♧ぃ￡❤▒▬♦◊◦♠♣▣۰•❤•۰►◄▧▨♨◐◑↔↕▪▫☼♦⊙●○①⊕◎Θ⊙¤㊣★☆♀◆◇◣◢◥▲▼△▽⊿◤◥✐✌✍✡✓✔✕✖♂♀♥♡☜☞☎☏⊙◎☺☻►◄▧▨♨◐◑↔↕♥♡▪▫☼♦▀▄█▌▐░▒▬♦◊◘◙◦☼♠♣▣▤▥▦▩◘◙◈♫♬♪♩♭♪✄☪☣☢☠♯♩♪♫♬♭♮☎☏☪♈ºº₪¤큐«»™♂✿♥　◕‿-｡　｡◕‿◕｡</td>
+               </tr>
+               <tr>
+                  <th id="xilazimu">希腊字母<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζνξοπρσηθικλμτυφχψω</td>
+               </tr>
+               <tr>
+                  <th id="eyuzimu">俄语字母<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</td>
+               </tr>
+               <tr>
+                  <th id="hanyupinyin">汉语拼音<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜüêɑńňɡㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄧㄨㄩ</td>
+               </tr>
+               <tr>
+                  <th id="zhongwenzifu">中文字符<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>零壹贰叁肆伍陆柒捌玖拾佰仟万亿吉太拍艾分厘毫微卍卐卄巜弍弎弐朤氺曱甴囍兀々〆のぁ〡〢〣〤〥〦〧〨〩㊎㊍㊌㊋㊏㊚㊛㊐㊊㊣㊤㊥㊦㊧㊨㊒㊫㊑㊓㊔㊕㊖㊗㊘㊜㊝㊞㊟㊠㊡㊢㊩㊪㊬㊭㊮㊯㊰㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉</td>
+               </tr>
+               <tr>
+                  <th id="riyu">日文平假名片假名<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺ・ーヽヾヿ゠ㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ</td>
+               </tr>
+               <tr>
+                  <th id="zhibiaofu">制表符<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>─ ━│┃╌╍╎╏┄ ┅┆┇┈ ┉┊┋┌┍┎┏┐┑┒┓└ ┕┖┗ ┘┙┚┛├┝┞┟┠┡┢┣ ┤┥┦┧┨┩┪┫┬ ┭ ┮ ┯ ┰ ┱ ┲ ┳ ┴ ┵ ┶ ┷ ┸ ┹ ┺ ┻┼ ┽ ┾ ┿ ╀ ╁ ╂ ╃ ╄ ╅ ╆ ╇ ╈ ╉ ╊ ╋ ╪ ╫ ╬═║╒╓╔ ╕╖╗╘╙╚ ╛╜╝╞╟╠ ╡╢╣╤ ╥ ╦ ╧ ╨ ╩ ╳╔ ╗╝╚ ╬ ═ ╓ ╩ ┠ ┨┯ ┷┏ ┓┗ ┛┳ ⊥ ﹃ ﹄┌ ╮ ╭ ╯╰</td>
+               </tr>
+               <tr>
+                  <th id="huangguanfuhao">皇冠符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td>♚　♛　♝　♞　♜　♟　♔　♕　♗　♘　♖　♟</td>
+               </tr>
+               <tr>
+                  <th id="emojifuhao">emoji符号<span id="rtop"><a href="#top">↑返回顶部</a></span></th>
+               </tr>
+               <tr>
+                  <td></td>
+               </tr>
+            </table>
+         </dd>
+      </dl>
+   </div>
+   <!-- /listbox -->
+</div>
+</div>
+
+   </body>
+</html>
