@@ -28,9 +28,13 @@ type 'ni hao' to input word
 [词库下载-拼音加加输入法]: http://dir.jjol.cn/Pyjj/down.aspx
 
 https://github.com/cow8/simple_HMM_based_IME_with_GUI.git
+
 https://github.com/mozillazg/pinyin-data
+
 https://github.com/cleverdeng/pinyin.py
+
 https://github.com/snowseg 
+
 cc-cedict
 
 ### 带声调的字母：
